@@ -1,10 +1,11 @@
 
 .ThreejsScene
 {
-	width: 100vh;
-	height:100hw;
+	width: 100vw;
+	height:100vh;
 }
 body
 {
 	margin:0;
+	overflow;hidden;
 }
