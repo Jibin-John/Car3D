@@ -43,7 +43,7 @@
           renderer.setSize(window.innerWidth,window.innerHeight);
           document.body.appendChild(renderer.domElement);
           let loader = new THREE.GLTFLoader();
-          loader.load('lamborghini2/scene.gltf', function(gltf){
+          loader.load('scene.gltf', function(gltf){
             car = gltf.scene.children[0];
             car.scale.set(70,70,70);
             scene.add(gltf.scene);
